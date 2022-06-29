@@ -1,0 +1,155 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.line-1{
+    display: flex;
+    height: 5vh;
+}
+
+.search{
+    width:80%;
+    height: 5vh;
+    background-color:#F6F7F9;
+    border-radius: 10vh;
+}
+
+.search-img{
+    width:2vm;
+    height:50%;
+    position: relative;
+    top:25%
+}
+
+.txt{
+    width: 80%;
+    opacity:50%;
+    position: relative;
+    top:10%
+}
+
+.search-img2{
+    height:75%;
+    position: relative;
+    top:12%
+}
+
+.line-2{
+    /*position: fixed;*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+    /*height: 5vm;*/
+    /*display: flex;*/
+    /*justify-content:space-evenly;*/
+    margin-top: 0vh;
+    border-width: 0vh;
+    height: 7vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+li{
+    display: inline-block;
+    margin-left: 0vh;
+    font-size: 2.8vh;
+    overflow-y: hidden;
+}
+
+ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 1vh;
+    height: 20vh;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+a{
+    text-decoration:none
+}
+
+.line-3{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.line-4{
+    width: 20%;
+    padding: 0;
+    text-align: center;
+}
+
+
+.line-4-a{
+    background-color: #F6F7F9;
+    width: 100%;
+    font-size: 2vh;
+    padding: 0;
+    color: grey;
+    height: 5vh;
+    border-style:none;
+}
+
+.line-4-a:hover{
+    background-color: blue;
+}
+
+.line-4-a:focus{
+    background-color: #228BFE;
+    color: white;
+}
+
+.line-5{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.line-5-div{
+    font-size: 2vh;
+    color: #9E9E9E;
+}
+
+.img1{
+    float:left;
+    height: 8vh;
+    width: 8vh;
+}
+
+.line-6{
+    float: left;
+    transform: translateX(10%) translateY(15%);
+}
+
+.line-7{
+    width: 8vh;
+    height: 6vh;
+    background-color: #1B80EE;
+    float: right;
+    padding: 1.5vh 2vh;
+    box-sizing: border-box;
+    border-radius: 2vh;
+}
+
+.zt1{
+    font-size: 2vh;
+    vertical-align: middle;
+}
+
+.zt2{
+    font-size: 1vh;
+    color: #808080
+}
+
+.zt3{
+    color: white;
+    font-size: 1vh;
+    vertical-align: middle;
+}
